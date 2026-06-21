@@ -1,0 +1,12 @@
+# 1. Ignore all files by default
+*
+
+# 2. But don't ignore directories (otherwise Git won't look inside them)
+!*/
+
+# 3. Explicitly allow the files you want to keep
+!*.cpp
+!*.h
+!.gitignore
+!README.md
+!*:Zone.Identifier
