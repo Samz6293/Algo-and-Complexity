@@ -13,16 +13,6 @@ The repository is divided into three main directories to keep everything organiz
 * **`practice/`**
     * These are my personal practice files and experiments.
 
-## 🗺️ Navigation Example
-
-Here is a quick look at how the files are structured:
-
-├── class/
-│   ├── 21-06-26/    # e.g., Insertion sort classwork
-│   └── 28-06-26/    # e.g., Merge sort classwork
-├── example/         # Professor's reference materials
-└── practice/        # Custom practice implementations
-
 
 ## 💡 Navigation tips
 
