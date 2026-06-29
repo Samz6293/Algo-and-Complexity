@@ -50,7 +50,7 @@ void merge(int A[], int startIndex, int midIndex, int endIndex) {
 
     // left subarray creation
     int m = (midIndex - startIndex) + 1;
-    int leftArray[m+1];
+    int leftArray[m];
 
     // right subarray creation
     int n = endIndex - midIndex; // since right halves start at midIndex+1
@@ -84,10 +84,12 @@ void merge(int A[], int startIndex, int midIndex, int endIndex) {
     while (i<m) {
         A[k] = leftArray[i];
         i++;
+        k++;
     }
     while (j<n) {
         A[k] = rightArray[j];
         j++;
+        k++;
     }
 
 }
